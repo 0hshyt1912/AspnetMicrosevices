@@ -22,7 +22,7 @@ namespace Catalog.API
                 {
                     webBuilder.UseStartup<Startup>();
                 //    webBuilder
-                //.UseKestrel(cfg => cfg.Listen(System.Net.IPAddress.Any, 85));
+                //.UseKestrel(cfg => cfg.Listen(System.Net.IPAddress.Any, 80));
                 });
     }
 }

@@ -21,6 +21,8 @@ namespace Basket.API
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+               //     webBuilder
+               //.UseKestrel(cfg => cfg.Listen(System.Net.IPAddress.Any, 80));
                 });
     }
 }
